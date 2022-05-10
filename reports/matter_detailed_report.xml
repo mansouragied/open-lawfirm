@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<odoo>
+    <!-- Matter Detailed Rerpot -->
+    <template id="matter_report">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="web.external_layout">
+                    <div class="page" style="padding-top: 70px;">
+                        <div class="text-center mb-5">
+                            <b t-field="doc.name"></b>
+                        </div>
+                        <div class="mb-5">
+                            <p class="font-weight-bold">Total Evidence : <b t-field="doc.evidence_count"></b></p>
+                            <p class="font-weight-bold">Total Trial : <b t-field="doc.trial_count"></b></p>
+                        </div>
+
+                        <p><b>Matter Details :</b></p>
+                        <table class="table table-bordered">
+                            <tr>
+                                <td><b>Client</b></td>
+                                <td><span t-field="doc.client_id"></span></td>
+                                <td><b>Mobile</b></td>
+                                <td><span t-field="doc.client_id.mobile"></span></td>
+                            </tr>
+                            <tr>
+                                <td><b>Lawyer</b></td>
+                                <td><span t-field="doc.lawyer"></span></td>
+                                <td><b>Payment Type</b></td>
+                                <td><span t-field="doc.payment_by"></span></td>
+                            </tr>
+                            <tr>
+                                <td><b>Matter Type</b></td>
+                                <td><span t-field="doc.matter_type_id"></span></td>
+                                <td><b>Matter Category</b></td>
+                                <td><span t-field="doc.matter_category_id"></span></td>
+                            </tr>
+                            <tr>
+                                <td><b>Open Date</b></td>
+                                <td><span t-field="doc.open_date"></span></td>
+                                <td><b>Close Date</b></td>
+                                <td><span t-field="doc.open_date"></span></td>
+                            </tr>
+                        </table>
+                        <p><b>Oppositions</b></p>
+                        <table class="table table-bordered">
+                            <t t-foreach="doc.oposition_line" t-as="line">
+                                <tr>
+                                    <td><b>Person Name</b></td>
+                                    <td><span t-field="line.party_name_id"></span></td>
+                                    <td><b>Phone</b></td>
+                                    <td><span t-field="line.party_contact"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Lawyer</b></td>
+                                    <td><span t-field="line.Lawyer_name_id"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </t>
+                        </table>
+                        <div>
+                            <p><b>Matter Description</b></p>
+                            <p><span t-field="doc.discription"></span></p>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <record id="matter_detailed_report" model="ir.actions.report">
+        <field name="name">Print Matter</field>
+        <field name="model">sh.law.matter</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">sh_law_erp.matter_report</field>
+        <field name="report_file">sh_law_erp.matter_report</field>
+        <field name="print_report_name">'Print Report - %s' % (object.name).replace('/', '')</field>
+        <field name="binding_model_id" ref="model_sh_law_matter" />
+        <field name="binding_type">report</field>
+    </record>
+</odoo>

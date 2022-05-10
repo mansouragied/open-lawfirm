@@ -1,0 +1,1540 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_law_erp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-24 07:07+0000\n"
+"PO-Revision-Date: 2020-10-24 07:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_law_erp
+#: model:ir.actions.report,print_report_name:sh_law_erp.matter_detailed_report
+msgid "'Print Report - %s' % (object.name).replace('/', '')"
+msgstr "'打印报告 - %s' % (object.name).replace('/', '')"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Client</b>"
+msgstr "<b>客户</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Close Date</b>"
+msgstr "<b>关闭日期</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Lawyer</b>"
+msgstr "<b>律师</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Matter Category</b>"
+msgstr "<b>物质类别</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Matter Description</b>"
+msgstr "<b>物质描述</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Matter Details :</b>"
+msgstr "<b>物质细节：</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Matter Type</b>"
+msgstr "<b>物质类型</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Mobile</b>"
+msgstr "<b>移动的</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Open Date</b>"
+msgstr "<b>开放日期</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Oppositions</b>"
+msgstr "<b>反对</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Payment Type</b>"
+msgstr "<b>支付方式</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Person Name</b>"
+msgstr "<b>人名</b>"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "<b>Phone</b>"
+msgstr "<b>电话</b>"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__access_warning
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__access_warning
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__access_warning
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__access_warning
+msgid "Access warning"
+msgstr "访问警告"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__act_article
+msgid "Act Article"
+msgstr "法案"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Act and Articles"
+msgstr "行动和文章"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__act_article_name
+msgid "Act/Article Name"
+msgstr "行为/文章名称"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__act_article_no
+msgid "Act/Article No."
+msgstr "行动/文章号"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_needaction
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_needaction
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_needaction
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_needaction
+msgid "Action Needed"
+msgstr "需要行动"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_exception_decoration
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_exception_decoration
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_exception_decoration
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动异常装饰"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_state
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_state
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_state
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_type_icon
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_type_icon
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_type_icon
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_act_article_action
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_act_article_menu
+msgid "Acts/Articles"
+msgstr "行为/文章"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Add Evidence"
+msgstr "添加证据"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Add Trial"
+msgstr "添加试用"
+
+#. module: sh_law_erp
+#: model_terms:ir.actions.act_window,help:sh_law_erp.sh_law_erp_open_view_employee_list
+msgid "Add a new lawyer"
+msgstr "添加一个新的律师"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "Address"
+msgstr "地址"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_bank_statement_line__to_price_unit
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__to_price_unit
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_payment__to_price_unit
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__invoice_amt
+msgid "Amount Per Case/Hour/Trial"
+msgstr "每个案例/小时/试用的金额"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "Approve"
+msgstr "批准"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_client_request__state__approve
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__state__approve
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Approved"
+msgstr "得到正式认可的"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_attachment_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_attachment_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_attachment_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件计数"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__attach_file
+msgid "Attachments"
+msgstr "附件"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__campaign_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__campaign_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__campaign_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__campaign_id
+msgid "Campaign"
+msgstr "活动"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_reject_wizard
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_invoice_wizard
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_mark_lost_reason_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__matter_category_id
+msgid "Category of Matter"
+msgstr "物质类别"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__city
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_search_view
+msgid "City"
+msgstr "城市"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__client
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__partner_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__client_id
+msgid "Client"
+msgstr "客户"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "Client Matter Details"
+msgstr "客户重视细节"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_client_request_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_partner__client_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_users__client_count
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_client_request_sub_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_inherit_res_partner_form
+msgid "Client Request"
+msgstr "客户要求"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_erp_trial__state__close
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_form_view
+msgid "Close"
+msgstr "关闭"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__close_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__close_date
+msgid "Close Date"
+msgstr "关闭日期"
+
+#. module: sh_law_erp
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_config_manu
+msgid "Configuration"
+msgstr "配置"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_res_partner
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__contact
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__contact
+msgid "Contact"
+msgstr "接触"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__lawyer_contact
+msgid "Contact No."
+msgstr "联系方式。"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__party_contact
+msgid "Contact No. "
+msgstr "联系方式。"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__contact
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__contact
+msgid "Contact Number"
+msgstr "联系电话"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__country_id
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "Country"
+msgstr "国家"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts__name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__court_name_id
+msgid "Court Name"
+msgstr "法庭名称"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_court_action
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_court_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_search_view
+msgid "Courts"
+msgstr "法院"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_matter_invoice_wizard_action
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_invoice_wizard
+msgid "Create Invoice"
+msgstr "创建发票"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__create_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area__create_uid
+msgid "Created by"
+msgstr "由...制作"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__create_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__currency_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__currency_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__currency_id
+msgid "Currency"
+msgstr "货币"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__client_id
+msgid "Customer"
+msgstr "顾客"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__access_url
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__access_url
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__access_url
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__access_url
+msgid "Customer Portal URL"
+msgstr "客户门户网站网址"
+
+#. module: sh_law_erp
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_client_request_customer_menu
+msgid "Customers"
+msgstr "顾客"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__act_article_description
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__description
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__description
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__discription
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_evidence_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Description"
+msgstr "描述"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__discription_matter
+msgid "Description of Matter"
+msgstr "物质描述"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_evidence_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Description..."
+msgstr "描述..."
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_report_sh_law_erp_sh_law_matter_report__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_partner__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__display_name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__state__draft
+msgid "Draft"
+msgstr "草案"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__email
+msgid "Email"
+msgstr "电子邮件"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_hr_employee
+msgid "Employee"
+msgstr "员工"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_evidence_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_partner__evidence_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_users__evidence_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__evidence_line
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_evidence_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_inherit_res_partner_form
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Evidence"
+msgstr "证据"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__evidence_count
+msgid "Evidence Count"
+msgstr "证据计算"
+
+#. module: sh_law_erp
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_favor_menu
+msgid "Favor"
+msgstr "赢"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_favor_action
+msgid "Favors"
+msgstr "恩惠"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_follower_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_follower_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_follower_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_follower_ids
+msgid "Followers"
+msgstr "追随者"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_channel_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_channel_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_channel_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "追随者（频道）"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_partner_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_partner_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_partner_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "追随者（合作伙伴）"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__activity_type_icon
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__activity_type_icon
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__activity_type_icon
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "字体令人敬畏的图标e.g. FA-TASKS."
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_Evidence_search_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_Matter_search_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_search_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_matter_type_search_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_search_view
+msgid "Group By"
+msgstr "通过...分组"
+
+#. module: sh_law_erp
+#: model:ir.module.category,description:sh_law_erp.module_category_sh_law_erp
+msgid "Helps you manage your law ERP for review of different-different users."
+msgstr "帮助您管理您的法律ERP以查看不同不同的用户。"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_bank_statement_line__hours
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__hours
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_payment__hours
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__hours
+msgid "Hours"
+msgstr "小时"
+
+#. module: sh_law_erp
+#: code:addons/sh_law_erp/wizards/invoice_wizard.py:0
+#, python-format
+msgid "Hours cannot be negative"
+msgstr "小时不能是消极的"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_report_sh_law_erp_sh_law_matter_report__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_partner__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_exception_icon
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_exception_icon
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_exception_icon
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__activity_exception_icon
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__activity_exception_icon
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__activity_exception_icon
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "图标表示异常活动。"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__message_needaction
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__message_unread
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__message_needaction
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__message_unread
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__message_needaction
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__message_unread
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__message_needaction
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果检查，新消息需要您的注意。"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__message_has_error
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__message_has_sms_error
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__message_has_error
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__message_has_sms_error
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__message_has_error
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__message_has_sms_error
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__message_has_error
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果检查，则某些消息具有交付错误。"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__favor
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_Evidence_search_view
+msgid "In Favor"
+msgstr "赞同，支持，受赏识，有利"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__state__progress
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "In Progress"
+msgstr "进行中"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__invoice_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__invoice_count
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_invoice_wizard
+msgid "Invoice"
+msgstr "发票"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__invoice_count
+msgid "Invoice Count"
+msgstr "发票计数"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__invoice_date
+msgid "Invoice Date"
+msgstr "发票日期"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_is_follower
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_is_follower
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_is_follower
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_is_follower
+msgid "Is Follower"
+msgstr "是追随者"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__is_lawyer
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__is_lawyer
+msgid "Is Lawyer"
+msgstr "是律师"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_account_move
+msgid "Journal Entry"
+msgstr "日记入场"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_judge_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__judge_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__judge_id
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_judge_menu
+msgid "Judge"
+msgstr "法官"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_search_view
+msgid "Judges"
+msgstr "法官"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_report_sh_law_erp_sh_law_matter_report____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_partner____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type____last_update
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area____last_update
+msgid "Last Modified on"
+msgstr "最后修改了"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__write_uid
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area__write_uid
+msgid "Last Updated by"
+msgstr "最后更新"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_courts__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__write_date
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area__write_date
+msgid "Last Updated on"
+msgstr "上次更新了"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_client_request
+msgid "Law Client Request"
+msgstr "法律客户要求"
+
+#. module: sh_law_erp
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_main_manu
+msgid "Law ERP"
+msgstr "法律ERP."
+
+#. module: sh_law_erp
+#: model:ir.module.category,name:sh_law_erp.module_category_sh_law_erp
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_client_request_main_menu
+msgid "Law ERP Management"
+msgstr "法律ERP管理"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_act_article
+msgid "Law Erp Act Article"
+msgstr "法律仲裁法"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_courts
+msgid "Law Erp Courts"
+msgstr "法律法院法院"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_evidence
+msgid "Law Erp Evidence"
+msgstr "法律ERP证据"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_favor
+msgid "Law Erp Favor"
+msgstr "法律ERP偏爱"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_judge
+msgid "Law Erp Judge"
+msgstr "法律法官法官"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_opposition_lawyer
+msgid "Law Erp Opposition Lawyer"
+msgstr "法律ERP反对派律师"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_opposition_parties
+msgid "Law Erp Opposition Parties"
+msgstr "法律反对派缔约方"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_trial
+msgid "Law Erp Trial"
+msgstr "法律ERP试用"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_erp_victim
+msgid "Law Erp Victim"
+msgstr "法律ERP受害者"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_matter
+msgid "Law Matter"
+msgstr "法律问题"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_matter_category
+msgid "Law Matter Category"
+msgstr "法律类别"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_report_sh_law_erp_sh_law_matter_report
+msgid "Law Matter Report"
+msgstr "法律报告"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_matter_type
+msgid "Law Matter Type"
+msgstr "法律类型"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_matter_opposition_line
+msgid "Law Opposition Line"
+msgstr "法律反对线"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_practise_area
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_practise_manu
+msgid "Law Practise Area"
+msgstr "法律实践区"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_practise_area__name
+msgid "Law Selection"
+msgstr "法律选择"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_opposition_lawyer_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_bank_statement_line__lawyer
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__lawyer
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_payment__lawyer
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__lawyer
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__lawyer_id
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_opposition_lawyer_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_hr_employee_form
+msgid "Lawyer"
+msgstr "律师"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__Lawyer_name_id
+msgid "Lawyer Name"
+msgstr "律师名称"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_open_view_employee_list
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_client_request_lawyer_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_Matter_search_view
+msgid "Lawyers"
+msgstr "律师"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__state__lost
+msgid "Lost"
+msgstr "丢失"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__mark_lost
+msgid "Lost Reason"
+msgstr "失去理由"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_main_attachment_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_main_attachment_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_main_attachment_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要依恋"
+
+#. module: sh_law_erp
+#: model:res.groups,name:sh_law_erp.group_sh_law_erp_manager
+msgid "Manager"
+msgstr "经理"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_matter_mark_lost_reason_wizard_action
+msgid "Mark Lost Reason"
+msgstr "标记损失原因"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_matter_mark_lost_wizard
+msgid "Mark Lost Reason Wizard"
+msgstr "标记损失原因向导"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Mark as Lost"
+msgstr "标记丢失"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_matter_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_bank_statement_line__matter_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__matter_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_payment__matter_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_partner__matter_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_users__matter_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__matter_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__matter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__matter_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__matter_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__name
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_matter_menu
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_matter_sub_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_Evidence_search_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_inherit_res_partner_form
+msgid "Matter"
+msgstr "事情"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_matter_category_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_category__name
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_matter_category_menu
+msgid "Matter Category"
+msgstr "物质类别"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_type__matter_code
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_matter_type_search_view
+msgid "Matter Code"
+msgstr "事项代码"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_matter_invoice_wizard
+msgid "Matter Invoice Wizard"
+msgstr "物质发票巫师"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_matter_type_action
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_matter_type_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_matter_type_search_view
+msgid "Matter Type"
+msgstr "物质类型"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_Matter_search_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_search_view
+msgid "Matters"
+msgstr "matt"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__medium_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__medium_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__medium_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__medium_id
+msgid "Medium"
+msgstr "中等的"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_has_error
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_has_error
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_has_error
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_has_error
+msgid "Message Delivery error"
+msgstr "消息传递错误"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__mobile
+msgid "Mobile Number"
+msgstr "手机号码"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_favor__name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_judge__name
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_lawyer__employee_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_opposition_parties__party_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_victim__name
+msgid "Name"
+msgstr "姓名"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_date_deadline
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_date_deadline
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_date_deadline
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一项活动截止日期"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_summary
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_summary
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_summary
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一项活动摘要"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_type_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_type_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_type_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_needaction_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_needaction_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_needaction_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_needaction_counter
+msgid "Number of Actions"
+msgstr "行动数量"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_has_error_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_has_error_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_has_error_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数量"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__message_needaction_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__message_needaction_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__message_needaction_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要动作的消息数"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__message_has_error_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__message_has_error_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__message_has_error_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "交货错误的消息数"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__message_unread_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__message_unread_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__message_unread_counter
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息的数量"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_erp_trial__state__draft
+msgid "Open"
+msgstr "打开"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__open_date
+msgid "Open Date"
+msgstr "开放日期"
+
+#. module: sh_law_erp
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_opposition_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Opposition"
+msgstr "反对"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__oposition_line
+msgid "Opposition Line"
+msgstr "反对线"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_opposition_parties_action
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_opposition_parties_menu
+msgid "Parties"
+msgstr "派对"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_opposition_line__party_name_id
+msgid "Party Name"
+msgstr "党名称"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_bank_statement_line__payment_by
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__payment_by
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_payment__payment_by
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__payment_by
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__payment_by
+msgid "Payment By"
+msgstr "付款人"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__payment_term_id
+msgid "Payment Term"
+msgstr "付款期限"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__account_move__payment_by__case
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__payment_by__case
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter_invoice_wizard__payment_by__case
+msgid "Per Case"
+msgstr "每个案例"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__account_move__payment_by__hour
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__payment_by__hour
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter_invoice_wizard__payment_by__hour
+msgid "Per Hour"
+msgstr "每小时"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__account_move__payment_by__trial
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__payment_by__trial
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter_invoice_wizard__payment_by__trial
+msgid "Per Trial"
+msgstr "每次试验"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__phone
+msgid "Phone Number"
+msgstr "电话号码"
+
+#. module: sh_law_erp
+#: code:addons/sh_law_erp/wizards/invoice_wizard.py:0
+#, python-format
+msgid "Please Select Customer and Payment By first"
+msgstr "请先选择客户和付款"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__access_url
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__access_url
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__access_url
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__access_url
+msgid "Portal Access URL"
+msgstr "门户访问URL."
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_practise_area_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__practise_area
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__practise_area
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_hr_employee_form
+msgid "Practise Area"
+msgstr "练习区"
+
+#. module: sh_law_erp
+#: model:ir.actions.report,name:sh_law_erp.matter_detailed_report
+msgid "Print Matter"
+msgstr "打印问题"
+
+#. module: sh_law_erp
+#: code:addons/sh_law_erp/wizards/mark_lost_wizard.py:0
+#: code:addons/sh_law_erp/wizards/reason_wizard.py:0
+#, python-format
+msgid ""
+"Programming error: wizard action executed without active_ids in context."
+msgstr ""
+“编程错误：在上下文中没有 active_ids 的情况下执行向导操作。”
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_hr_employee_public
+msgid "Public Employee"
+msgstr "公共员工"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_mark_lost_wizard__mark_lost
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_reject_wizard
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_mark_lost_reason_wizard
+msgid "Reason"
+msgstr "原因"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_client_request__state__reject
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "Reject"
+msgstr "拒绝"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_client_request_reject_wizard_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__reject_reason
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request_reject_wizard__reject_reason
+msgid "Reject Reason"
+msgstr "拒绝理由"
+
+#. module: sh_law_erp
+#: model:ir.model,name:sh_law_erp.model_sh_law_client_request_reject_wizard
+msgid "Reject Reason Wizard"
+msgstr "拒绝理由巫师"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__related_partner_id
+msgid "Related Partner"
+msgstr "相关合作伙伴"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_trial_form_view
+msgid "Reopen"
+msgstr "重新打开"
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_client_request__state__draft
+msgid "Request for Approval"
+msgstr "要求批准"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__activity_user_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__activity_user_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__activity_user_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__activity_user_id
+msgid "Responsible User"
+msgstr "负责任的用户"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_has_sms_error
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_has_sms_error
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_has_sms_error
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信交付错误"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_act_article_tree_search
+msgid "Search Act Article"
+msgstr "搜索法案文章"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_judge_tree_search
+msgid "Search Judge"
+msgstr "搜索法官"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_matter_type_search_view
+msgid "Search Matter Type"
+msgstr "搜索物品类型"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_opposition_lawyer_tree_search
+msgid "Search Opposition Lawyer"
+msgstr "搜索反对派律师"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_opposition_parties_tree_search
+msgid "Search Opposition Parties"
+msgstr "搜索反对派缔约方"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_search_view
+msgid "Search Partner"
+msgstr "搜索伙伴"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_victim_tree_search
+msgid "Search Victim"
+msgstr "搜索受害者"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__access_token
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__access_token
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__access_token
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__access_token
+msgid "Security Token"
+msgstr "安全令牌"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__source_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__source_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__source_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__source_id
+msgid "Source"
+msgstr "来源"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__state_id
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_search_view
+msgid "State"
+msgstr "状态"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__state
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__state
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__state
+msgid "Status"
+msgstr "地位"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__activity_state
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__activity_state
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__activity_state
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态\n"
+"逾期：截止日期已过\n"
+"今天：活动日期是今天\n"
+“计划：未来的活动。”
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__street
+msgid "Street"
+msgstr "街道"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "Street 2..."
+msgstr "街2 ......"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "Street..."
+msgstr "街道..."
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__street2
+msgid "Street2"
+msgstr "街2"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_reject_wizard
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_mark_lost_reason_wizard
+msgid "Submit"
+msgstr "提交"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__campaign_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__campaign_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__campaign_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__campaign_id
+msgid ""
+"This is a name that helps you keep track of your different campaign efforts,"
+" e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+“这是一个可以帮助您跟踪不同竞选活动的名称，”
+“例如 Fall_Drive、Christmas_Special”
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__medium_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__medium_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__medium_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__medium_id
+msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+msgstr "这是交付方法，例如明信片，电子邮件或横幅广告"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__source_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__source_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__source_id
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__source_id
+msgid ""
+"This is the source of the link, e.g. Search Engine, another domain, or name "
+"of email list"
+msgstr ""
+“这是链接的来源，例如搜索引擎、另一个域或名称”
+“电子邮件列表”
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "Total Evidence :"
+msgstr "总证据："
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__total_invoice_amount
+msgid "Total Invoice Amount"
+msgstr "总发票金额"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.matter_report
+msgid "Total Trial :"
+msgstr "审判总："
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_partner__trial_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_res_users__trial_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__trial_line
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_trial_menu
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_inherit_res_partner_form
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Trial"
+msgstr "审判"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__trial_date
+msgid "Trial Date"
+msgstr "审判日期"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__name
+msgid "Trial Name"
+msgstr "试用名称"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_trial_action
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_bank_statement_line__trial_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_move__trial_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_account_payment__trial_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__trial_count
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter_invoice_wizard__trials_ids
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_invoice_wizard
+msgid "Trials"
+msgstr "审判"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_act_article__act_article_type
+msgid "Type"
+msgstr "类型"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__matter_id
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__matter_type_id
+msgid "Type of Matter"
+msgstr "物质类型"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__activity_exception_decoration
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__activity_exception_decoration
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__activity_exception_decoration
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录上的异常活动类型。"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_unread
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_unread
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_unread
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__message_unread_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__message_unread_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__message_unread_counter
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: sh_law_erp
+#: model:res.groups,name:sh_law_erp.group_sh_law_erp_user
+msgid "User"
+msgstr "用户"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__victim
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Victim"
+msgstr "受害者"
+
+#. module: sh_law_erp
+#: model:ir.actions.act_window,name:sh_law_erp.sh_law_erp_victim_action
+#: model:ir.ui.menu,name:sh_law_erp.sh_law_erp_victim_menu
+msgid "Victims"
+msgstr "受害者"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__wage_per_case
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__wage_per_case
+msgid "Wage Per Case"
+msgstr "每个案例的工资"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__wage_per_hour
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__wage_per_hour
+msgid "Wage Per Hour"
+msgstr "工资每小时"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee__wage_per_trial
+#: model:ir.model.fields,field_description:sh_law_erp.field_hr_employee_public__wage_per_trial
+msgid "Wage Per Trial"
+msgstr "每个试验的工资"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_erp_hr_employee_form
+msgid "Wages"
+msgstr "工资"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__website
+msgid "Website Link"
+msgstr "网站链接"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__website_message_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_evidence__website_message_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_erp_trial__website_message_ids
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_matter__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_client_request__website_message_ids
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_evidence__website_message_ids
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_erp_trial__website_message_ids
+#: model:ir.model.fields,help:sh_law_erp.field_sh_law_matter__website_message_ids
+msgid "Website communication history"
+msgstr "网站沟通历史"
+
+#. module: sh_law_erp
+#: model_terms:ir.actions.act_window,help:sh_law_erp.sh_law_erp_open_view_employee_list
+msgid ""
+"With just a quick glance on the Odoo lawyer screen, you can easily find all "
+"the information you need for each person; contact data, job position, "
+"availability, etc."
+msgstr ""
+“只需在 Odoo 律师屏幕上快速浏览一下，您就可以轻松找到所有内容”
+“您需要的每个人的信息；联系方式、工作职位，”
+“可用性等”
+
+#. module: sh_law_erp
+#: model:ir.model.fields.selection,name:sh_law_erp.selection__sh_law_matter__state__done
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_matter_form_view
+msgid "Won"
+msgstr "韩元"
+
+#. module: sh_law_erp
+#: model_terms:ir.ui.view,arch_db:sh_law_erp.sh_law_client_request_form_viewhr_employee_public_view_search
+msgid "ZIP"
+msgstr "压缩"
+
+#. module: sh_law_erp
+#: model:ir.model.fields,field_description:sh_law_erp.field_sh_law_client_request__zip
+msgid "Zip"
+msgstr "压缩"
